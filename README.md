@@ -5,13 +5,36 @@ SIM/网络国家码、运营商（MCC+MNC 与名称）、语言（Locale）、�
 
 > **边界先说清**：本模块只改应用在本地读到的区域信号，**不改变 IP 出口**。很多谷歌服务是「IP + 客户端信号」一起看的，请配合代理（IP 出口与所选区域一致）使用，否则信号互相矛盾，效果会打折。
 
-## 作用域（推荐）
+## 作用域（推荐，v1.3 起共 26 个）
 
 - `com.google.android.gms`（Google Play 服务）
 - `com.android.vending`（Play 商店）
 - `com.google.android.googlequicksearchbox`（Google 应用）
 - `com.google.android.apps.bard`（Gemini）
 - `com.google.android.youtube`（YouTube）
+- `com.google.android.gsf`（Google 服务框架）
+- `com.google.android.gm`（Gmail）
+- `com.google.android.apps.docs`（云端硬盘）
+- `com.google.android.apps.translate`（翻译）
+- `com.google.android.apps.magazines`（Google 新闻）
+- `com.google.android.apps.walletnfcrel`（Google 钱包）
+- `com.google.android.apps.subscriptions.red`（Google One）
+- `com.google.android.apps.cloudconsole`（Google Cloud 控制台）
+- `com.google.android.apps.adm`（查找中心）
+- `com.google.android.apps.authenticator2`（身份验证器）
+- `com.google.ar.lens`（智能镜头）
+- `com.google.android.inputmethod.latin`（Gboard）
+- `com.google.android.apps.labs.language.tailwind`（NotebookLM）
+- `com.google.android.apps.privacy.wildlife`（VPN by Google）
+- `com.google.android.wearable.app.cn`（Wear OS）
+- `com.google.android.apps.youtube.music`（YouTube Music）
+- `com.google.android.apps.maps`（地图）
+- `com.google.android.apps.photos`（相册）
+- `com.android.chrome`（Chrome）
+- `com.google.android.play.games`（Play 游戏）
+- `com.google.android.videos`（Google TV）
+
+名单之外的谷歌系应用手动补勾同样生效（v1.3 起以 LSPosed 勾选为总闸）。
 
 ## 功能
 
